@@ -17,13 +17,21 @@ public class C05_Exceptions {
 
             try {
                 sayi = scan.nextInt();
+                toplam += sayi ;
             } catch (Exception e) {
-                e.printStackTrace();
+               String hataliGriris = scan.next();
+               if (hataliGriris.equalsIgnoreCase("q")){
+
+                   break;
+               }else{
+                   System.out.println("hatali giris");
+               }
             }
 
 
-            toplam += sayi ;
+
         }while (toplam<500);
+        System.out.println("girdiginiz sayilarin toplami : " + toplam);
     }
 
 
