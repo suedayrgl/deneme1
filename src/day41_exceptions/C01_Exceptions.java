@@ -14,7 +14,7 @@ public class C01_Exceptions {
             // burada yazdigimiz e : jaanin exception i atayacagimiz obje
             // exception ise olusan exception turu
 
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             System.out.println(e.toString());
         }
         System.out.println(c);
