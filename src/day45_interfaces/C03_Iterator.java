@@ -1,7 +1,6 @@
 package day45_interfaces;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class C03_Iterator {
@@ -26,7 +25,7 @@ public class C03_Iterator {
         }
         System.out.println(liste);
 
-        Iterator itr = liste.iterator();
+
 
 
     }
